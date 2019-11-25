@@ -1,0 +1,148 @@
+.main {
+    height: 100%;
+    margin: 10px 10px;
+    position: relative;
+}
+.showInfo {
+    padding: 30px;
+}
+
+.showInfo ul{
+    direction: rtl;
+    text-decoration: none;
+    text-align: right;
+}
+
+.showInfo ul >li {
+    /*list-style-type: none;*/
+}
+
+.showInfo ul >li:hover {
+    color: #bd5d38;
+}
+.showInfoMain {
+
+}
+.showInfoMain .showInfoInner{
+    /*position: absolute;*/
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.p_navbar {
+
+}
+
+.p_navbar .p_navbar_inner{
+    /*position: absolute;*/
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+nav .navbar-nav .nav-link  >a{
+    color: black !important;
+    text-decoration: none;
+}
+
+nav .navbar-nav  .nav-link > a:hover{
+    color: #bd5d38 !important;
+    /*background-color: #bd5d38;*/
+    /*border-radius : 5px;*/
+    /*padding: 5px;*/
+
+}
+
+nav .navbar-nav  .nav-item > a:active {
+    color : #bd5d38;
+}
+
+nav {
+    background-color: #bd5d38 !important;
+}
+
+
+
+nav a.hover {
+    color: #32673f;
+}
+
+nav a.active {
+    background-color: #f7f8fa;
+    color: #019fc2;
+    cursor: default;
+}
+
+nav .navbar-nav li a{
+    color: black !important;
+}
+
+nav .navbar-nav li a:hover{
+    color: #bd5d38 !important;
+}
+#sideNav {
+    text-align: center;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+#sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+#sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: .5rem;
+}
+
+#sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: .5rem solid rgba(255,255,255,.2);
+
+}
+
+
+
+.bg-primary {
+    background-color: #fff !important;
+
+}
+
